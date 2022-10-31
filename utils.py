@@ -50,7 +50,7 @@ def get_github_action_arg():
         cfg.read("config.ini")
 
         notion_token =\
-            cfg["notion666"]["token"]
+            cfg["notion"]["token"]
         notion_database_id =\
             cfg["notion"]["database_id"]
         
